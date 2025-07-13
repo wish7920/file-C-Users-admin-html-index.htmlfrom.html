@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Form</title>
+</head>
+<body style="background-color: #f2f2f2; font-family: Arial;">
+
+    <h2 style="text-align: center;">Contact Form</h2>
+
+    <form action="#" method="post" style="max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" style="width: 100%; padding: 8px;"></textarea><br><br>
+
+        <input type="submit" value="Submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+    </form>
+
+</body>
+</html>
